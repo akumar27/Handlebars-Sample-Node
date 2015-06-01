@@ -1,0 +1,17 @@
+<div id="doc-header">
+  {{> header}}
+</div>
+
+<div class="page-main">
+	<div id="doc-main"> This is Main-Layout.hbs
+	<div><a href="?locale=en&template=example-module-a">Template A with Locale='en'</a></div>
+	<div><a href="?locale=sp&template=example-module-a">Template A with Locale='sp'</a></div>
+	<div><a href="?locale=en&template=example-module-b">Template B with Locale='en'</a></div>
+	<div><a href="?locale=sp&template=example-module-b">Template B with Locale='sp'</a></div>
+	
+    {{{body}}} 
+  </div> <!-- /.doc-main -->
+</div> <!-- /.page-main -->
+<div id="doc-footer">
+  {{> footer}}
+</div>

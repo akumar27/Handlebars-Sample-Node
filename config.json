@@ -1,0 +1,23 @@
+{
+    "evoyaenroll.voya.com": {
+        "src": { 
+            "path": "",
+            "main": "script.js"
+        },
+        "url": {
+            "port": 9000,
+            "hostname": "localhost",
+            "protocol": "http"
+        },
+		"switch": {
+			"ServeStubFromRemote" : false,
+			"OverwriteLocalStub" : false
+		},
+		"remoteServer":{
+			"protocol" : "https",
+			"url" : "enroll.intg.voya.com",
+			"port" : "80"
+		},
+        "open": "/"
+    }
+}
